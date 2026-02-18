@@ -10,7 +10,7 @@ public class Main {
 		Add_stu add = new Add_stu();
 		String url = "jdbc:mysql://localhost:3306/Student";
 		String user = "root";
-		String pass = "Yokesh@2004";
+		String pass = "Viswa@2004";
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection c = DriverManager.getConnection(url, user, pass);
 		System.out.println("********Welcome To Student Database********\n");
@@ -67,3 +67,4 @@ public class Main {
 	}
 
 }
+
